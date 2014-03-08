@@ -1,0 +1,38 @@
+;
+; info file
+;
+
+name        = BEER!
+description = Noco Beer.
+core        = 7.x
+
+; STYLESHEETS
+;
+stylesheets[all][] = css/styles.css
+
+; JAVASCRIPTS
+;
+scripts[] = js/script.js
+
+; REGIONS
+;
+regions[header]         = Header
+regions[navigation]     = Navigation bar
+; regions[highlighted]  = Highlighted
+; regions[help]         = Help
+regions[content]        = Content
+regions[footer]         = Footer
+; regions[bottom]       = Page bottom
+
+
+
+
+
+
+
+
+; The page_top and page_bottom regions are hidden, which means they will not
+; show up on the blocks administration page. But they are required in order for
+; the html.tpl.php to work properly, so do not delete them.
+regions[page_top]       = Page top
+regions[page_bottom]    = Page bottom
